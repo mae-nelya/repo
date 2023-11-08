@@ -1,0 +1,344 @@
+/* --------------- OVERALL STYLES -------------------*/
+html {
+    font-family: "Open Sans", Helvetica, sans-serif;
+    font-size: 24px;
+    color: #2c0735;
+    font-weight: 300;
+    word-spacing: 0.3em;
+    line-height: 1.5;
+}
+
+h1 {
+    font-family: "Raleway", "Avant Garde", sans-serif;
+    font-size: 5rem;
+    font-weight: 200;
+    color: #858ae3;
+}
+
+h2 {
+    font-family: "Raleway", "Avant Garde", sans-serif;
+    font-weight: 200;
+    font-size: 3rem;
+    text-align: center;
+}
+
+h3 {
+    font-family: "Raleway", "Avant Garde", sans-serif;
+    font-size: 2rem;
+    font-weight: 300;
+}
+
+body {
+    margin: 0;
+}
+
+main {
+    width: 100%;
+}
+
+@media only screen and (max-width: 1400px) {
+    html {
+        font-size: 16px;
+    }
+}
+
+@media only screen and (max-width: 760px) {
+    html {
+        font-size: 12px;
+    }
+}
+
+
+/* -------------- PAGE HERO -----------------*/
+#hero {
+   display: grid;
+   grid-template-columns: 1.5fr 1fr;
+   height: 32rem;
+}
+
+#hero img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+#hero .text-content {
+    background-color: black;
+    padding-left: 3rem;
+    font-weight: 400;
+}
+
+#hero h1 {
+    padding-bottom: 1rem;
+    padding-right: 2rem;
+    margin-bottom: 0;
+    margin-top: 2rem;
+}
+
+#hero p {
+    color: #858ae3;
+    width: 75%;
+    padding-left: 1rem;
+}
+
+@media only screen and (max-width: 600px) {
+    #hero .desktop {
+        display: none;
+    }
+
+    #hero {
+        background-image: url("./images/purple-brain.jpg");
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-size: cover;
+        background-position: 0% 75%;
+    }
+
+    #hero .text-content {
+        width: 50%;
+        height: 50%;
+        padding: 2rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-flow: row wrap;
+        border-radius: 2.5%;
+    }
+
+    #hero h1 {
+        padding: 0;
+        margin: 0;
+    }
+
+    #hero p {
+        padding: 0;
+        margin: 0;
+        text-align: center;
+    }
+}
+
+
+/* ---------------- NAVBAR -------------------*/
+#nav-mobile {
+    display: none;
+}
+
+nav {
+    color: #858ae3;
+    padding-top: 0.75rem;
+    padding-left: 2.5rem;
+    font-size: 1.5rem;
+    line-height: 2;
+    font-family: "Raleway", "Avant Garde", sans-serif;
+    font-weight: 300;
+}
+
+nav li {
+    list-style-image: url(./images/chevron-small-cropped.png);
+    padding-left: 0.5rem;
+}
+
+nav li:hover {
+    color: #97dffc;
+    padding-left: 0.6rem;
+}
+
+@media only screen and (max-width: 1400px) {
+    nav li {
+        list-style-image: url("./images/chevron-xs.png");
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    #nav-mobile {
+        display: block;
+    }
+
+    nav {
+        padding: 0;
+    }
+
+    nav ul {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: 1fr;
+        height: 3rem;
+        padding: 0;
+        margin: 0;
+    }
+
+    nav li {
+        list-style-image: none;
+        list-style: none;
+        font-size: 1.25rem;
+        height: 100%;
+        padding-left: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-weight: 300;
+    }
+
+    .nav-item1, .nav-item2, .nav-item3 {
+        color: black;
+    }
+
+    #nav-mobile .nav-item2 {
+        background-color: #f4effa;
+    }
+
+    #nav-mobile .nav-item3 {
+        background-color: #9b72cf;
+    }
+
+    #nav-mobile .nav-item4 {
+        background-color: #532b88;
+        color: white;
+    }
+
+    #nav-mobile nav li:hover {
+        padding: 0;
+        background-color: #97dffc;
+        color: black;
+    }
+}
+
+
+/* --------------- MISSION --------------------- */
+#mission {
+    height: min-content;
+    background-image: url(./images/forest-mountains-greyscale.jpg);
+    background-size: cover;
+}
+
+#mission .text-content {
+    background-color: rgb(68,69,77,0.9);
+    height: 100%;
+    padding: 5rem 25%;
+    color: #f4effa;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+#mission p {
+    text-align: center;
+}
+
+@media only screen and (max-width: 600px) {
+    #mission .text-content {
+        padding: 4rem 5%;
+    }
+
+    #mission h2 {
+        margin-top: 0;
+    }
+}
+
+
+/* --------------- LABS --------------------- */
+.mobile {
+    display: none;
+}
+
+#labs {
+    padding: 2rem 10% 8rem 10%;
+    display: grid;
+    grid-template-rows: 6rem repeat(2, 20rem);
+    row-gap: 5rem;
+}
+
+#labs .content-row {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    column-gap: 2rem;
+}
+
+#labs img {
+    object-fit: cover;
+    display: flex;
+    width: 100%;
+    height: 100%;
+    border-radius: 2.5%;
+    align-self: center;
+}
+
+#labs .text-content {
+    display: flex;
+    flex-flow: row wrap;
+    align-content: center;
+}
+
+#labs h3 {
+    margin: 0;
+    padding: 0;
+}
+
+@media only screen and (max-width: 1400px) {
+    #labs img {
+        height: auto;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    #labs {
+        padding: 2rem 5% 5rem 5%;
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+        row-gap: 1rem;
+    }
+
+    #labs h2 {
+        text-align: center;
+    }
+
+    #labs .content-row {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+    }
+
+    #labs .desktop {
+        display: none;
+    }
+
+    #labs .mobile {
+        display: inline;
+    }
+
+    #labs h3, #labs p {
+        text-align: center;
+    }
+
+    #labs h3 {
+        width: 100%;
+    }
+
+    #labs img {
+        width: 60%;
+        padding: 1rem 0;
+        object-fit: cover;
+        border-radius: 5%;
+    }
+}
+
+
+/* -------------- FOOTER ---------------- */
+footer {
+    height: 2.5rem;
+    background-color: #a4a5ad;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer p {
+    color: white;
+    padding: 0;
+    margin: 0;
+    font-size: 0.75rem;
+}

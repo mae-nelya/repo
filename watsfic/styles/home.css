@@ -1,0 +1,183 @@
+/* -------------- GENERAL ------------------- */
+@media only screen and (max-width: 1024px) and (min-width: 511px) {
+    .desktop {
+        display: none;
+    }
+
+    .tablet {
+        display: flex;
+    }
+}
+
+@media only screen and (max-width: 510px) {
+    .tablet, .desktop, .desktop-tablet {
+        display: none;
+    }
+
+    .mobile {
+        display: flex;
+    }
+
+    main {
+        padding: 0;
+    }
+}
+
+
+/* ----------------- HERO -------------------- */
+.front-page {
+    width: 100%;
+    height: calc(100vh);
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    flex-flow: row wrap;
+}
+
+#hero .logo {
+    background-color: white;
+    width: 20rem;
+    height: 20rem;
+    object-fit: contain;
+}
+
+.socials img {
+    height: 2rem;
+    width: 2rem;
+    padding-right: 1rem;
+}
+
+.socials:last-child {
+    padding-right: 0;
+}
+
+
+/* ---------------- NAVBAR -------------------- */
+#nav {
+    margin-top: 4rem;
+    width: min-content;
+    height: min-content;
+}
+
+#nav .textbox {
+    padding: 0;
+    border-width: 1px;
+}
+
+#nav ul {
+    display: flex;
+    flex-flow: row;
+    padding: 0;
+    margin: 0;
+}
+
+#nav li {
+    list-style: none;
+    white-space: nowrap;
+    border-right: 1px solid #00171f;
+    width: min-content;
+    height: min-content;
+}
+
+#nav li:last-child {
+    border-right: none;
+}
+
+#nav a {
+    color: #00171f;
+    display: inline-block;
+    padding: 1rem;
+}
+
+#nav a:hover {
+    background-color: #00a8e8;
+    color: white;
+}
+
+@media only screen and (max-width: 510px) {
+    #nav {
+        width: 100%;
+    }
+
+    nav {
+        width: 100%;
+    }
+
+    #nav ul {
+        flex-flow: column;
+        justify-content: center;
+    }
+
+    #nav li {
+        width: 100%;
+        margin-bottom: 2rem;
+    }
+
+    #nav a {
+        width: 100%;
+        padding: 1rem 0;
+    }
+
+    #nav li:last-child {
+        border-right: 1px solid #00171f;
+    }
+}
+
+
+/* --------------- ABOUT ----------------- */
+#about {
+    width: 50rem;
+}
+
+#about img {
+    margin: 4rem 0;
+    height: auto;
+    width: 25%;
+}
+
+
+/* ---------- EVENTS & SERVICES ------------ */
+#events-services {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    column-gap: 10%;
+}
+
+#events-services .column-block {
+    max-width: 40%;
+}
+
+#events-services .text-content-block {
+    padding: 2rem 8%;
+}
+
+#events-services .text-content-block:first-child {
+    padding-top: 0;
+}
+
+#events-services img {
+    width: 20%;
+    height: auto;
+}
+
+#events-services h2 {
+    margin-top: 0;
+}
+
+@media only screen and (max-width: 1024px) {
+    #events-services .column-block {
+        max-width: 100%;
+    }
+
+    #events-services .img-container {
+        width: 100%;
+        justify-content: center;
+        margin-bottom: 4rem;
+    }
+
+    #events-services .tablet img {
+        height: 20rem;
+        width: auto;
+    }
+}
