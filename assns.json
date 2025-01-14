@@ -1,0 +1,134 @@
+[
+    {
+        "name": "Module 1 Python Exercise",
+        "due": "2024-12-05T23:59:00",
+        "type": "code",
+        "link": "https://learn.uwaterloo.ca/d2l/common/dialogs/quickLink/quickLink.d2l?ou=932253&type=dropbox&rcode=uWaterloo-3563978"
+    },
+    {
+        "name": "Module 1 Discussion",
+        "due": "2024-12-05T23:59:00",
+        "type": "discussion",
+        "link": "https://learn.uwaterloo.ca/d2l/common/dialogs/quickLink/quickLink.d2l?ou={orgUnitId}&type=discuss&rcode=uWaterloo-3563980"
+    },
+    {
+        "name": "Module 2 Python Exercise",
+        "due": "2024-12-10T23:59:00",
+        "type": "code",
+        "link": "https://learn.uwaterloo.ca/d2l/common/dialogs/quickLink/quickLink.d2l?ou=932253&type=dropbox&rcode=uWaterloo-4457310"
+    },
+    {
+        "name": "Module 2 Discussion",
+        "due": "2024-12-10T23:59:00",
+        "type": "discussion",
+        "link": "https://learn.uwaterloo.ca/d2l/common/dialogs/quickLink/quickLink.d2l?ou={orgUnitId}&type=discuss&rcode=uWaterloo-4457295"
+    },
+    {
+        "name": "Quiz 1",
+        "due": "2024-12-15T23:59:00",
+        "type": "quiz",
+        "link": "https://learn.uwaterloo.ca/d2l/common/dialogs/quickLink/quickLink.d2l?ou={orgUnitId}&type=quiz&rcode=uWaterloo-4668759"
+    },
+    {
+        "name": "Module 3 Python Exercise",
+        "due": "2024-12-20T23:59:00",
+        "type": "code",
+        "link": "https://learn.uwaterloo.ca/d2l/common/dialogs/quickLink/quickLink.d2l?ou=932253&type=dropbox&rcode=uWaterloo-4457311"
+    },
+    {
+        "name": "Module 3 Discussion",
+        "due": "2024-12-20T23:59:00",
+        "type": "discussion",
+        "link": "https://learn.uwaterloo.ca/d2l/common/dialogs/quickLink/quickLink.d2l?ou={orgUnitId}&type=discuss&rcode=uWaterloo-4457296"
+    },
+    {
+        "name": "Module 4 Python Exercise",
+        "due": "2024-12-25T23:59:00",
+        "type": "code",
+        "link": "https://learn.uwaterloo.ca/d2l/common/dialogs/quickLink/quickLink.d2l?ou=932253&type=dropbox&rcode=uWaterloo-4457314"
+    },
+    {
+        "name": "Module 4 Discussion",
+        "due": "2024-12-25T23:59:00",
+        "type": "discussion",
+        "link": "https://learn.uwaterloo.ca/d2l/common/dialogs/quickLink/quickLink.d2l?ou={orgUnitId}&type=discuss&rcode=uWaterloo-4457297"
+    },
+    {
+        "name": "Quiz 2",
+        "due": "2024-12-30T23:59:00",
+        "type": "quiz",
+        "link": "https://learn.uwaterloo.ca/d2l/common/dialogs/quickLink/quickLink.d2l?ou={orgUnitId}&type=quiz&rcode=uWaterloo-4668760"
+    },
+    {
+        "name": "Project 1",
+        "due": "2024-12-30T23:59:00",
+        "type": "assignment",
+        "link": "https://learn.uwaterloo.ca/d2l/common/dialogs/quickLink/quickLink.d2l?ou={orgUnitId}&type=content&rcode=uWaterloo-4668923"
+    },
+    {
+        "name": "Module 5 Python Exercise",
+        "due": "2025-01-05T23:59:00",
+        "type": "code",
+        "link": "https://learn.uwaterloo.ca/d2l/common/dialogs/quickLink/quickLink.d2l?ou=932253&type=dropbox&rcode=uWaterloo-4457315"
+    },
+    {
+        "name": "Module 5 Discussion",
+        "due": "2025-01-05T23:59:00",
+        "type": "discussion",
+        "link": "https://learn.uwaterloo.ca/d2l/common/dialogs/quickLink/quickLink.d2l?ou={orgUnitId}&type=discuss&rcode=uWaterloo-4457299"
+    },
+    {
+        "name": "Module 6 Python Exercise",
+        "due": "2025-01-10T23:59:00",
+        "type": "code",
+        "link": "https://learn.uwaterloo.ca/d2l/common/dialogs/quickLink/quickLink.d2l?ou=932253&type=dropbox&rcode=uWaterloo-4457317"
+    },
+    {
+        "name": "Module 6 Discussion",
+        "due": "2025-01-10T23:59:00",
+        "type": "discussion",
+        "link": "https://learn.uwaterloo.ca/d2l/common/dialogs/quickLink/quickLink.d2l?ou={orgUnitId}&type=discuss&rcode=uWaterloo-4457300"
+    },
+    {
+        "name": "Quiz 3",
+        "due": "2025-01-15T23:59:00",
+        "type": "quiz",
+        "link": "https://learn.uwaterloo.ca/d2l/common/dialogs/quickLink/quickLink.d2l?ou={orgUnitId}&type=quiz&rcode=uWaterloo-4668781"
+    },
+    {
+        "name": "Module 7 Python Exercise",
+        "due": "2025-01-20T23:59:00",
+        "type": "code",
+        "link": "https://learn.uwaterloo.ca/d2l/common/dialogs/quickLink/quickLink.d2l?ou=932253&type=dropbox&rcode=uWaterloo-4457318"
+    },
+    {
+        "name": "Module 7 Discussion",
+        "due": "2025-01-20T23:59:00",
+        "type": "discussion",
+        "link": "https://learn.uwaterloo.ca/d2l/common/dialogs/quickLink/quickLink.d2l?ou={orgUnitId}&type=discuss&rcode=uWaterloo-4457301"
+    },
+    {
+        "name": "Module 8 Python Exercise",
+        "due": "2025-01-25T23:59:00",
+        "type": "code",
+        "link": "https://learn.uwaterloo.ca/d2l/common/dialogs/quickLink/quickLink.d2l?ou=932253&type=dropbox&rcode=uWaterloo-4468245"
+    },
+    {
+        "name": "Module 8 Discussion",
+        "due": "2025-01-25T23:59:00",
+        "type": "discussion",
+        "link": "https://learn.uwaterloo.ca/d2l/common/dialogs/quickLink/quickLink.d2l?ou={orgUnitId}&type=discuss&rcode=uWaterloo-4468281"
+    },
+    {
+        "name": "Quiz 4",
+        "due": "2025-01-30T23:59:00",
+        "type": "quiz",
+        "link": "https://learn.uwaterloo.ca/d2l/common/dialogs/quickLink/quickLink.d2l?ou={orgUnitId}&type=quiz&rcode=uWaterloo-4668784"
+    },
+    {
+        "name": "Project 2",
+        "due": "2025-01-30T23:59:00",
+        "type": "assignment",
+        "link": "https://learn.uwaterloo.ca/d2l/common/dialogs/quickLink/quickLink.d2l?ou={orgUnitId}&type=dropbox&rcode=uWaterloo-4668786"
+    }
+]

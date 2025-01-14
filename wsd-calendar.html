@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- BOOTSTRAP -->
+<link rel="stylesheet" href="https://learn.uwaterloo.ca/shared/uw_media/master/watspeed/code/css/bootstrap.min.css">
+<script src="https://learn.uwaterloo.ca/shared/uw_media/master/watspeed/code/js/bootstrap.bundle.min.js"></script>
+<!-- BOOTSTRAP ICONS -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+<!-- CUSTOM STYLING -->
+ <link rel="stylesheet" href="widget-scroll.css">
+</head>
+
+<body>
+
+<div class="container mb-3 p-0">
+    <button type="button" class="btn btn-primary cal-btn btn-multicolor w-100 ps-0 pt-0 pb-0 d-flex align-items-center">
+        <i class="bi bi-calendar-week ps-3 pe-5 align-bottom"></i>
+        <span class="diag-line"></span>
+        <span class="btn-h1 align-middle ps-5" href="#" target="_self">Course Schedule</span>
+    </button>
+</div>
+
+<div class="container border rounded-3 mb-3 shadow-sm">
+    <div class="row m-3 mb-2">
+        <div class="col d-flex justify-content-start">
+            <div class="btn-group cal-btn-group align-items-center">
+                <span id="prev-month" class="btn btn-primary cal-btn" type="button" data-bs-target="#calendar-carousel" data-bs-slide="prev"><i class="bi bi-caret-left-fill"></i></span>
+                <span id="month-title" class="btn-h2 ps-4 pe-4 h-100">Month</span>
+                <span id="next-month" class="btn btn-primary cal-btn" type="button" data-bs-target="#calendar-carousel" data-bs-slide="next"><i class="bi bi-caret-right-fill"></i></span>
+            </div>
+        </div>
+    </div>
+    <div class="row ms-2 me-2">
+        <div id="calendar-carousel" class="col d-flex justify-content-center border rounded-3 pt-2 ps-2 pe-2 mb-3 shadow-sm carousel slide" data-bs-interval="false">
+            <div class="carousel-inner">
+                <div class="carousel-item">
+                    <table id="calendar-1" class="table table-borderless text-center" data-month="" data-year="">
+                        <thead>
+                            <tr>
+                                <th scope="col">Su</th>
+                                <th scope="col">Mo</th>
+                                <th scope="col">Tu</th>
+                                <th scope="col">We</th>
+                                <th scope="col">Th</th>
+                                <th scope="col">Fr</th>
+                                <th scope="col">Sa</th>
+                            </tr>
+                        </thead>
+                        <tbody></tbody>
+                    </table>
+                </div>
+                <div class="carousel-item active">
+                    <table id="calendar-2" class="table table-borderless text-center" data-month="" data-year="">
+                        <thead>
+                            <tr>
+                                <th scope="col">Su</th>
+                                <th scope="col">Mo</th>
+                                <th scope="col">Tu</th>
+                                <th scope="col">We</th>
+                                <th scope="col">Th</th>
+                                <th scope="col">Fr</th>
+                                <th scope="col">Sa</th>
+                            </tr>
+                        </thead>
+                        <tbody></tbody>
+                    </table>
+                </div>
+                <div class="carousel-item">
+                    <table id="calendar-3" class="table table-borderless text-center" data-month="" data-year="">
+                        <thead>
+                            <tr>
+                                <th scope="col">Su</th>
+                                <th scope="col">Mo</th>
+                                <th scope="col">Tu</th>
+                                <th scope="col">We</th>
+                                <th scope="col">Th</th>
+                                <th scope="col">Fr</th>
+                                <th scope="col">Sa</th>
+                            </tr>
+                        </thead>
+                        <tbody></tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col d-flex justify-content-end me-3">
+            <i id="due-items-icon" class="bi bi-circle-fill align-self-center pb-2 pe-2"></i>
+            <p class="text-end">Due Items</p>
+        </div>
+    </div>
+</div>
+
+<div class="container border rounded-3 shadow-sm">
+    <div class="row p-3">
+        <div class="col">
+            <div id="assns-title-row" class="row mb-2">
+                <span class="btn-h2">Upcoming Due Items</span>
+            </div>
+            <div id="top3-assns" class="overflow-hidden open">
+                <div class="row mb-2 d-none">
+                    <div class="col ms-1 d-flex align-items-center">
+                        <div class="rounded-circle me-2">
+                            <i class="bi assn-icon"></i>
+                        </div>
+                        <p class="mb-0"><strong></strong></p>
+                        <button type="button" class="btn btn-primary cal-btn float-end fixed-size ms-auto" href="#" target="_self"></button>
+                    </div>
+                </div>
+                <div class="row mb-2 d-none">
+                    <div class="col ms-1 d-flex align-items-center">
+                        <div class="float-start rounded-circle me-2">
+                            <i class="bi assn-icon"></i>
+                        </div>
+                        <p class="float-start mb-0"><strong></strong></p>
+                        <button type="button" class="btn btn-primary cal-btn float-end fixed-size ms-auto" href="#" target="_self"></button>
+                    </div>
+                </div>
+                <div class="row mb-2 d-none">
+                    <div class="col ms-1 d-flex align-items-center">
+                        <div class="float-start rounded-circle me-2">
+                            <i class="bi assn-icon"></i>
+                        </div>
+                        <p class="float-start mb-0"><strong></strong></p>
+                        <button type="button" class="btn btn-primary cal-btn float-end fixed-size ms-auto" href="#" target="_self"></button>
+                    </div>
+                </div>
+            </div>
+            <div class="row mt-3">
+                <a id="toggle-assns" class="text-decoration-none" data-bs-toggle="collapse" href="#expanded-assns" role="button" aria-expanded="false" aria-controls="expanded-assns">Show All Tasks</a>
+            </div>
+            <div id="expanded-assns" class="collapse w-100 mt-3 pe-3"><hr></div>
+        </div>
+    </div>
+</div>
+
+<p id="JSON" class="d-none">assns.json</p>
+<script type="text/javascript" src="widget-scroll.js"></script>
+</body>
+</html>
